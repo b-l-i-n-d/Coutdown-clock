@@ -17,7 +17,10 @@ const x = setInterval ( function() {
 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("countdown-clock").innerHTML = "Expeired";
+        document.getElementById("countdown-days").innerHTML = "EX";
+        document.getElementById("countdown-hours").innerHTML = "PE";
+        document.getElementById("countdown-mins").innerHTML = "IR";
+        document.getElementById("countdown-secs").innerHTML = "ED";
     }
 
 }, 1000);
